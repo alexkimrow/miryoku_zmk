@@ -44,7 +44,8 @@ on:
       modules:
         type: string
         default: '["default"]'
-  
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 jobs:
   main:
