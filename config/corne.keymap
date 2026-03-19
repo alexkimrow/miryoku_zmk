@@ -1,8 +1,9 @@
 // Copyright 2021 Manna Harbour
 // https://github.com/manna-harbour/miryoku
 
-&pro_micro_spi {
-    nice_view_spi: &spi0 { };
+&spi0 {
+    status = "okay";
+    nice_view_spi: node { };
 };
 
 
